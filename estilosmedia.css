@@ -1,0 +1,139 @@
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+  }
+  @font-face {
+    font-family: usar;
+    src: url(Fuentes/webfont.ttf);
+  }
+
+  body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  nav {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 0;
+  }
+
+  ul,
+  li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+  }
+
+  .contA,
+  .contenedoresSUPERIORES,
+  .contB {
+    visibility: hidden;
+    display: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .formularioheader {
+    overflow: hidden;
+    display: none;
+  }
+
+  .contenedoresSupAdap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .contAA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 25vh;
+  }
+
+  .contAAinf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 25vh;
+  }
+
+  .generaladaptable {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: usar;
+  }
+
+  .imagenred {
+    width: 10vw;
+    height: 10vh;
+    background: url(Recursos/aSASAS.png) no-repeat;
+    background-size: 10vw 10vh;
+  }
+
+  .restoNAV {
+    width: 90vw;
+    height: 10vh;
+  }
+
+  .boxa1,
+  .boxa2,
+  .boxa3,
+  .boxa4 {
+    width: 100%;
+    height: 25vh;
+    border: 1px solid black;
+    font-family: usar;
+  }
+
+  .fuentetitulo {
+    font-size: 25px;
+  }
+
+  .fotoynombre{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+  }
+
+  .fotomessiadap {
+    width: 100vw;
+    height: 37vh;
+  }
+
+  .fotoadap{
+    width: 6vw;
+    height: 3vh;
+  }
+  .fuentetituloadap{
+    font-size: 20px;
+  }
+}
